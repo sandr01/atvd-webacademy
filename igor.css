@@ -17,9 +17,11 @@ p {
     color: #666;
     line-height: 1.5;
     margin-bottom: 20px;
+    text-align: center;
+
 }
 
-/* Estilo para o menu de navegação */
+/* Estilo para o menu de navegação "menu" */
 nav {
     background-color: #333;
 }
@@ -28,11 +30,11 @@ nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Centraliza os itens do menu */
+    text-align: left;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block; 
 }
 
 nav ul li a {
@@ -70,4 +72,14 @@ table th {
 table td img {
     max-width: 100px;
     height: auto;
+}
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
