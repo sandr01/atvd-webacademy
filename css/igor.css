@@ -6,6 +6,12 @@ body {
     background-color: #f0f0f0;
 }
 
+#descricao{
+    margin-left: 200px;
+    width: 350px;
+    background-color: #800404;
+}
+
 /* Estilo para o cabeçalho h1 */
 h1 {
     color: #333;
@@ -86,7 +92,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 
 .Login{
     body {
