@@ -2,8 +2,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     event.preventDefault(); // Previne o envio padrão do formulário
             
     // Valores esperados
-    var nomeEsperado = "igor";
-    var emailEsperado = "igor@com.br";
+    var nomeEsperado = "admin";
+    var emailEsperado = "admin@admin.com";
     var senhaEsperada = "admin";
             
     // Valores do formulário
